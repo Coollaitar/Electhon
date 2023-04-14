@@ -1,23 +1,23 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
+import { useParams } from 'react-router-dom';
 const Details = () => {
+  const { aadharNumber } = useParams();
   const [details, setDetails] = useState([]);
-
+  const fetchDetails = async (aadharNumber) => {
+    try {
+      const res = await axios.get(
+        `http://localhost:8800/details/${aadharNumber}`
+      );
+      setDetails(res.data);
+    } catch (err) {
+      console.log(err);
+    }
+  };
   useEffect(() => {
-    const fetchDetails = async (aadharNumber = '123') => {
-      try {
-        const res = await axios.get(
-          `http://localhost:8800/details/${aadharNumber}`
-        );
-        setDetails(res.data);
-      } catch (err) {
-        console.log(err);
-      }
-    };
-    fetchDetails();
-  }, []);
+    fetchDetails(aadharNumber);
+  }, [aadharNumber]);
 
   return (
     <div>
