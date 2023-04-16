@@ -13,14 +13,14 @@ const db = mysql.createConnection({
   password: '@adit27nov',
   database: 'aadhar',
 });
-const accountSid = 'ACe2a9003302f9bdff9a9bc259dbf03399';
-const authToken = '7a240c3c060cf27c09f7071682f4cd32';
+const accountSid = 'ENTER_ACCOUNT_SID_TWILIO';
+const authToken = 'ENTER_AUTH_TOKEN_TWILIO';
 const client = require('twilio')(accountSid, authToken);
 client.messages
   .create({
     body: 'Authentication OTP is 1211 . Please enter OTP and then click on this link http://localhost:3000/details/123',
-    from: '+15075686894',
-    to: '+918355983607',
+    from: 'FROM',
+    to: 'TO',
   })
   .then((message) => console.log(message.sid));
 
