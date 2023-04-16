@@ -19,7 +19,7 @@ We devised a solution that will help user get voterID as soon as he is about to 
 - [x] Download below Dependencies
 
 ### Installation
-Clone the repository: [git clone git@github.com:Coollaitar/Electhon.git](https://github.com/Coollaitar/Electhon.git)
+- [x]Clone the repository: [git clone git@github.com:Coollaitar/Electhon.git](https://github.com/Coollaitar/Electhon.git)
 ### Install any required dependencies: 
 #### Frontend Dependencies : 
 - [x] npm install axios react react-dom react-scripts
