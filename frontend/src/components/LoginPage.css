@@ -1,0 +1,12 @@
+.login {
+  position: relative;
+  top: 100%;
+}
+.css-ipeil2 {
+  ax-width: var(--chakra-sizes-md);
+  margin: auto;
+  top: 222px;
+  padding: var(--chakra-space-4);
+  position: relative;
+  right: -550px;
+}
