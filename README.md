@@ -1,4 +1,4 @@
-# Electhon - 2023 - Selected for top 10 teams
+# Electhon - 2023 - Finalist
 
 #### Team Name - 0xace
 
