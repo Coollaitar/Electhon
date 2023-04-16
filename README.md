@@ -9,7 +9,7 @@
 ## A Brief of the Prototype:
 
 What is your solution? and how it works.
-We devised a solution that will help user get voterID as soon as he is about to turn 18 . We automated the form filling and introduced online verification . We have identified a unique identifier that will map all the government verified IDs. Th.e user can get VoterID just at a click of button in couple of minutes
+We devised a solution that will help user get voterID as soon as he is about to turn 18 . We automated the form filling and introduced online verification. We have identified a unique identifier that will map all the government verified IDs. The user can get VoterID just at a click of button in couple of minutes
 
 ## To Install This Project Follow Below Steps 
 
