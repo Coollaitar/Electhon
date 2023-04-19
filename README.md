@@ -21,16 +21,25 @@ We devised a solution that will help user get voterID as soon as he is about to 
 
 ### Installation
 
-- [x] Clone the repository: [git clone git@github.com:Coollaitar/Electhon.git](https://github.com/Coollaitar/Electhon.git)
-
+ Clone the repository: 
+```
+git clone git@github.com:Coollaitar/Electhon.git
+```
 ### Install any required dependencies:
 
 #### Frontend Dependencies :
 
-- [x] npm install axios react react-dom react-scripts
+```
+npm install axios react react-dom react-scripts
+```
 
 #### Backend Dependencies
 
-- [x] npm install dotenv express body-parser twilio
+```
+npm install dotenv express body-parser twilio
+```
 
-Start the application: npm start
+Start the application:
+```
+npm start
+```
