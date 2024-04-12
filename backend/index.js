@@ -10,7 +10,7 @@ app.use(cors());
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '@adit27nov',
+  password: '*********',
   database: 'aadhar',
 });
 const accountSid = 'ENTER_ACCOUNT_SID_TWILIO';
